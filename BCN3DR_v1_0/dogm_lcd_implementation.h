@@ -179,8 +179,8 @@ static void lcd_implementation_status_screen2()
 {
  static unsigned char fan_rot = 0;
  
- 		SERIAL_PROTOCOLLN("Hola em dic Jordi: status screen");
- 		SERIAL_PROTOCOLLN("");
+ 		//SERIAL_PROTOCOLLN("Hola em dic Jordi: status screen");
+ 		//SERIAL_PROTOCOLLN("");
  
  u8g.setColorIndex(1);	// black on white
  
