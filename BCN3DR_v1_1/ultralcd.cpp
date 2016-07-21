@@ -1135,7 +1135,7 @@ void lcd_init()
 	lcd.setCursor(6,2);
 	lcd.print("RepRapBCN");
 	lcd.setCursor(8,3);
-	lcd.print("v1.0");
+	lcd.print("v1.1");
 
 #ifdef NEWPANEL
     pinMode(BTN_EN1,INPUT);
